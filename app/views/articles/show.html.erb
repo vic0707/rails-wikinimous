@@ -1,0 +1,2 @@
+<h1><%= @article.title %></h1>
+<p><%= Kramdown::Document.new(@article.content).to_html%></p>
